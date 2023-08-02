@@ -3,6 +3,7 @@ using System.Windows.Forms;
 using System.Collections.Generic;
 using System.Drawing;
 using System.ComponentModel;
+using System.Xml;
 
 namespace vsg_test
 {
@@ -258,6 +259,17 @@ namespace vsg_test
         {
             var selectedFile = listBox3.SelectedItem;
             listBox3.Items.Remove(selectedFile);
+        }
+
+        private void SaveConfigurationButton_Click(object sender, EventArgs e)
+        {
+            //using (XmlWriter writer = XmlWriter.Create())
+            Console.WriteLine(Extensions.DirectoryExtensions.GetDirectory());
+        }
+
+        private void LoadConfigurationButton_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
