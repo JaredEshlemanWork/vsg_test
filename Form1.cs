@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.ComponentModel;
 using System.Xml;
+using System.Linq;
 
 namespace vsg_test
 {
@@ -11,6 +12,7 @@ namespace vsg_test
     {
         public string[] files;
         List<File> fileData = new List<File>();
+        string SaveConfigsFileName = Extensions.DirectoryExtensions.GetDirectory() + "\\SaveConfigs.xml";
         public Form1()
         {
             InitializeComponent();
@@ -263,17 +265,23 @@ namespace vsg_test
 
         private void SaveConfigurationButton_Click(object sender, EventArgs e)
         {
-            using (XmlWriter writer = XmlWriter.Create(Extensions.DirectoryExtensions.GetDirectory() + "\\SaveConfigs.xml"))
-            {
-                writer.WriteStartElement("book");
-                writer.WriteEndElement();
-                writer.Flush();
-            }
+            List<FileInformation> fileInfoSaved = listBox3.Items.OfType<FileInformation>().ToList();
+
+            listBox3.Items.Clear();
+
+            Extensions.XmlSerialization.WriteToXmlFile<List<FileInformation>>(SaveConfigsFileName, fileInfoSaved);
         }
 
         private void LoadConfigurationButton_Click(object sender, EventArgs e)
         {
+            listBox3.Items.Clear();
 
+            List<FileInformation> fileInfoLoaded = Extensions.XmlSerialization.ReadFromXmlFile<List<FileInformation>>(SaveConfigsFileName);
+
+            foreach (FileInformation fileInformation in fileInfoLoaded)
+            {
+                listBox3.Items.Add(fileInformation);
+            }
         }
     }
 }

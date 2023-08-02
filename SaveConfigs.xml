@@ -1,1 +1,17 @@
-﻿<?xml version="1.0" encoding="utf-8"?><book />
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfFileInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <FileInformation>
+    <File>C:\Users\JaredEshleman\Downloads\chirp_jared.csv</File>
+    <PulseLength>0</PulseLength>
+    <DisplayString>chirp_jared.csv will be played for 0 seconds</DisplayString>
+  </FileInformation>
+  <FileInformation>
+    <PulseLength>0</PulseLength>
+    <DisplayString>Delay of 0</DisplayString>
+  </FileInformation>
+  <FileInformation>
+    <File>C:\Users\JaredEshleman\Downloads\cw_jared.csv</File>
+    <PulseLength>2</PulseLength>
+    <DisplayString>cw_jared.csv will be played for 2 seconds</DisplayString>
+  </FileInformation>
+</ArrayOfFileInformation>

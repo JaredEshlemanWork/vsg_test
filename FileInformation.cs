@@ -1,6 +1,6 @@
 ﻿namespace vsg_test
 {
-    internal class FileInformation
+    public class FileInformation
     {
         public string File { get; set; }
         public decimal PulseLength { get; set; }
