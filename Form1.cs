@@ -263,8 +263,12 @@ namespace vsg_test
 
         private void SaveConfigurationButton_Click(object sender, EventArgs e)
         {
-            //using (XmlWriter writer = XmlWriter.Create())
-            Console.WriteLine(Extensions.DirectoryExtensions.GetDirectory());
+            using (XmlWriter writer = XmlWriter.Create(Extensions.DirectoryExtensions.GetDirectory() + "\\SaveConfigs.xml"))
+            {
+                writer.WriteStartElement("book");
+                writer.WriteEndElement();
+                writer.Flush();
+            }
         }
 
         private void LoadConfigurationButton_Click(object sender, EventArgs e)
