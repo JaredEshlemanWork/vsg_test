@@ -267,8 +267,6 @@ namespace vsg_test
         {
             List<FileInformation> fileInfoSaved = listBox3.Items.OfType<FileInformation>().ToList();
 
-            listBox3.Items.Clear();
-
             Extensions.XmlSerialization.WriteToXmlFile<List<FileInformation>>(SaveConfigsFileName, fileInfoSaved);
         }
 

@@ -52,9 +52,9 @@ namespace vsg_test
             // 
             // BeginButton
             // 
-            this.BeginButton.Location = new System.Drawing.Point(556, 340);
+            this.BeginButton.Location = new System.Drawing.Point(282, 332);
             this.BeginButton.Name = "BeginButton";
-            this.BeginButton.Size = new System.Drawing.Size(140, 93);
+            this.BeginButton.Size = new System.Drawing.Size(140, 102);
             this.BeginButton.TabIndex = 0;
             this.BeginButton.Text = "Begin";
             this.BeginButton.UseVisualStyleBackColor = true;
@@ -66,7 +66,7 @@ namespace vsg_test
             // 
             // BrowseButton
             // 
-            this.BrowseButton.Location = new System.Drawing.Point(556, 13);
+            this.BrowseButton.Location = new System.Drawing.Point(136, 14);
             this.BrowseButton.Name = "BrowseButton";
             this.BrowseButton.Size = new System.Drawing.Size(140, 53);
             this.BrowseButton.TabIndex = 1;
@@ -76,7 +76,7 @@ namespace vsg_test
             // 
             // SubmitTimeButton
             // 
-            this.SubmitTimeButton.Location = new System.Drawing.Point(433, 229);
+            this.SubmitTimeButton.Location = new System.Drawing.Point(13, 230);
             this.SubmitTimeButton.Name = "SubmitTimeButton";
             this.SubmitTimeButton.Size = new System.Drawing.Size(117, 65);
             this.SubmitTimeButton.TabIndex = 7;
@@ -88,7 +88,7 @@ namespace vsg_test
             // 
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 16;
-            this.listBox1.Location = new System.Drawing.Point(556, 72);
+            this.listBox1.Location = new System.Drawing.Point(136, 73);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(140, 116);
             this.listBox1.TabIndex = 8;
@@ -98,9 +98,9 @@ namespace vsg_test
             // 
             // browsePythonButton
             // 
-            this.browsePythonButton.Location = new System.Drawing.Point(702, 395);
+            this.browsePythonButton.Location = new System.Drawing.Point(428, 396);
             this.browsePythonButton.Name = "browsePythonButton";
-            this.browsePythonButton.Size = new System.Drawing.Size(140, 38);
+            this.browsePythonButton.Size = new System.Drawing.Size(120, 38);
             this.browsePythonButton.TabIndex = 10;
             this.browsePythonButton.Text = "Browse Python";
             this.browsePythonButton.UseVisualStyleBackColor = true;
@@ -110,7 +110,7 @@ namespace vsg_test
             // 
             this.listBox2.FormattingEnabled = true;
             this.listBox2.ItemHeight = 16;
-            this.listBox2.Location = new System.Drawing.Point(702, 72);
+            this.listBox2.Location = new System.Drawing.Point(282, 73);
             this.listBox2.Name = "listBox2";
             this.listBox2.Size = new System.Drawing.Size(140, 116);
             this.listBox2.TabIndex = 11;
@@ -120,7 +120,7 @@ namespace vsg_test
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(702, 13);
+            this.button1.Location = new System.Drawing.Point(282, 14);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(140, 53);
             this.button1.TabIndex = 12;
@@ -130,16 +130,16 @@ namespace vsg_test
             // 
             // timeDisplayNumberBox
             // 
-            this.timeDisplayNumberBox.Location = new System.Drawing.Point(848, 72);
+            this.timeDisplayNumberBox.Location = new System.Drawing.Point(428, 73);
             this.timeDisplayNumberBox.Name = "timeDisplayNumberBox";
             this.timeDisplayNumberBox.Size = new System.Drawing.Size(120, 22);
             this.timeDisplayNumberBox.TabIndex = 14;
             // 
             // SaveConfigurationButton
             // 
-            this.SaveConfigurationButton.Location = new System.Drawing.Point(12, 376);
+            this.SaveConfigurationButton.Location = new System.Drawing.Point(136, 334);
             this.SaveConfigurationButton.Name = "SaveConfigurationButton";
-            this.SaveConfigurationButton.Size = new System.Drawing.Size(187, 28);
+            this.SaveConfigurationButton.Size = new System.Drawing.Size(140, 47);
             this.SaveConfigurationButton.TabIndex = 17;
             this.SaveConfigurationButton.Text = "Save Configuration";
             this.SaveConfigurationButton.UseVisualStyleBackColor = true;
@@ -147,9 +147,9 @@ namespace vsg_test
             // 
             // LoadConfigurationButton
             // 
-            this.LoadConfigurationButton.Location = new System.Drawing.Point(12, 410);
+            this.LoadConfigurationButton.Location = new System.Drawing.Point(136, 387);
             this.LoadConfigurationButton.Name = "LoadConfigurationButton";
-            this.LoadConfigurationButton.Size = new System.Drawing.Size(187, 28);
+            this.LoadConfigurationButton.Size = new System.Drawing.Size(140, 47);
             this.LoadConfigurationButton.TabIndex = 18;
             this.LoadConfigurationButton.Text = "Load Configuration";
             this.LoadConfigurationButton.UseVisualStyleBackColor = true;
@@ -159,7 +159,7 @@ namespace vsg_test
             // 
             this.listBox3.FormattingEnabled = true;
             this.listBox3.ItemHeight = 16;
-            this.listBox3.Location = new System.Drawing.Point(556, 193);
+            this.listBox3.Location = new System.Drawing.Point(136, 194);
             this.listBox3.Name = "listBox3";
             this.listBox3.Size = new System.Drawing.Size(286, 132);
             this.listBox3.TabIndex = 19;
@@ -169,7 +169,7 @@ namespace vsg_test
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(851, 244);
+            this.button2.Location = new System.Drawing.Point(431, 245);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(117, 50);
             this.button2.TabIndex = 20;
@@ -179,14 +179,14 @@ namespace vsg_test
             // 
             // numericUpDown1
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(851, 303);
+            this.numericUpDown1.Location = new System.Drawing.Point(431, 304);
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(117, 22);
             this.numericUpDown1.TabIndex = 21;
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(848, 100);
+            this.button3.Location = new System.Drawing.Point(428, 101);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(120, 45);
             this.button3.TabIndex = 22;
@@ -196,9 +196,9 @@ namespace vsg_test
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(848, 193);
+            this.button4.Location = new System.Drawing.Point(431, 194);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(120, 45);
+            this.button4.Size = new System.Drawing.Size(117, 45);
             this.button4.TabIndex = 23;
             this.button4.Text = "<-- Remove Selected";
             this.button4.UseVisualStyleBackColor = true;
@@ -206,7 +206,7 @@ namespace vsg_test
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(430, 90);
+            this.button5.Location = new System.Drawing.Point(10, 91);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(120, 64);
             this.button5.TabIndex = 24;
@@ -218,7 +218,7 @@ namespace vsg_test
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1030, 450);
+            this.ClientSize = new System.Drawing.Size(852, 450);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
